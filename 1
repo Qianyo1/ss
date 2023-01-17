@@ -1,3 +1,5 @@
+-- // xxa
+
 if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Services
@@ -38,8 +40,8 @@ getgenv().Aiming = {
     Enabled = true,
 
     ShowFOV = false,
-    FOV = 12.5,
-    FOVSides = 24,
+    FOV = 8,
+    FOVSides = 300,
     FOVColour = Color3fromRGB(0, 147, 255),
 
     VisibleCheck = true,
@@ -49,7 +51,7 @@ getgenv().Aiming = {
     Selected = nil,
     SelectedPart = nil,
 
-    TargetPart = {"Head", "HumanoidRootPart"},
+    TargetPart = {"HumanoidRootPart"},
 
     Ignored = {
         Teams = {
